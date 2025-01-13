@@ -111,7 +111,7 @@ watch(
   () => isDataLoaded.value,
   (newValue) => {
     console.log("isDataLoaded 상태:", newValue);
-  }
+  } 
 );
 
 onMounted(() => {
